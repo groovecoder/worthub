@@ -1,0 +1,4 @@
+easy_install pip
+pip install -r requirements/prod.txt -r requirements/compiled.txt
+./manage.py syncdb
+./manage.py runserver
