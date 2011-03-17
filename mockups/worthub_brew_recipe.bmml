@@ -7,7 +7,7 @@
     </control>
     <control controlID="5" controlTypeID="com.balsamiq.mockups::List" x="233" y="182" w="115" h="126" measuredW="100" measuredH="126" zOrder="1" locked="false" isInGroup="-1">
       <controlProperties>
-        <selectedIndex>2</selectedIndex>
+        <selectedIndex>3</selectedIndex>
         <text>Activity%0AProfile%0ARecipes%0ABrews</text>
       </controlProperties>
     </control>
