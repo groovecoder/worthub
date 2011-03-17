@@ -88,6 +88,7 @@
     </control>
     <control controlID="45" controlTypeID="com.balsamiq.mockups::FieldSet" x="363" y="182" w="386" h="86" measuredW="200" measuredH="170" zOrder="16" locked="false" isInGroup="-1">
       <controlProperties>
+        <color>16777215</color>
         <text>Heavy%20Wheel</text>
       </controlProperties>
     </control>
@@ -102,12 +103,7 @@
         <text>Date%3A%2003/17/11</text>
       </controlProperties>
     </control>
-    <control controlID="59" controlTypeID="com.balsamiq.mockups::Label" x="501" y="196" w="-1" h="-1" measuredW="92" measuredH="23" zOrder="20" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>Size%3A%205%20gallons</text>
-      </controlProperties>
-    </control>
-    <control controlID="60" controlTypeID="com.balsamiq.mockups::Label" x="639" y="196" w="-1" h="-1" measuredW="94" measuredH="23" zOrder="21" locked="false" isInGroup="-1">
+    <control controlID="60" controlTypeID="com.balsamiq.mockups::Label" x="639" y="196" w="-1" h="-1" measuredW="94" measuredH="23" zOrder="20" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Type%3A%20All-grain</text>
       </controlProperties>
