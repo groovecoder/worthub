@@ -1,8 +1,8 @@
-<mockup version="1.0" skin="sketch" measuredW="964" measuredH="694" mockupW="800" mockupH="694">
+<mockup version="1.0" skin="sketch" measuredW="1125" measuredH="694" mockupW="961" mockupH="694">
   <controls>
     <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="164" y="0" w="800" h="694" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Worthub%0Ahttp%3A//worthub.com/recipe/71st-street-wheat/brew</text>
+        <text>Worthub%0Ahttp%3A//worthub.com/brew</text>
       </controlProperties>
     </control>
     <control controlID="5" controlTypeID="com.balsamiq.mockups::List" x="233" y="182" w="115" h="126" measuredW="100" measuredH="126" zOrder="1" locked="false" isInGroup="-1">
@@ -332,6 +332,16 @@
       <controlProperties>
         <color>40463</color>
         <text>Make%20Recipe</text>
+      </controlProperties>
+    </control>
+    <control controlID="128" controlTypeID="com.balsamiq.mockups::Arrow" x="461" y="252" w="592" h="92" measuredW="150" measuredH="100" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="129" controlTypeID="com.balsamiq.mockups::StickyNote" x="1004" y="330" w="121" h="91" measuredW="109" measuredH="123" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>auto-populated%20from%20settings</text>
       </controlProperties>
     </control>
   </controls>

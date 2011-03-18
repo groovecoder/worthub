@@ -1,4 +1,4 @@
-<mockup version="1.0" skin="sketch" measuredW="964" measuredH="1219" mockupW="800" mockupH="1219">
+<mockup version="1.0" skin="sketch" measuredW="964" measuredH="1259" mockupW="800" mockupH="1259">
   <controls>
     <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="164" y="0" w="800" h="1191" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
       <controlProperties>
@@ -85,7 +85,7 @@
         <text>This%20wheat%20beer%20is%20a%20lively%2C%20refreshing%20ale%20with%20the%20natural%20citrus%20flavor%20and%20distinctive%20cloudy%20appearance%20that%20wheats%20are%20famous%20for.%20It%20is%20an%20easy%20drinking%20American%20style%20wheat%20beer.</text>
       </controlProperties>
     </control>
-    <control controlID="111" controlTypeID="__group__" x="363" y="325" w="386" h="784" measuredW="386" measuredH="784" zOrder="16" locked="false" isInGroup="-1">
+    <control controlID="111" controlTypeID="__group__" x="363" y="365" w="386" h="784" measuredW="386" measuredH="784" zOrder="16" locked="false" isInGroup="-1">
       <groupChildrenDescriptors>
         <control controlID="0" controlTypeID="com.balsamiq.mockups::TabBar" x="0" y="0" w="386" h="784" measuredW="287" measuredH="100" zOrder="0" locked="false" isInGroup="111">
           <controlProperties>
@@ -303,39 +303,108 @@
         <text>American%20Wheat</text>
       </controlProperties>
     </control>
-    <control controlID="124" controlTypeID="com.balsamiq.mockups::Button" x="367" y="1073" w="-1" h="-1" measuredW="53" measuredH="28" zOrder="22" locked="false" isInGroup="-1">
-      <controlProperties>
-        <color>40463</color>
-        <text>Brew</text>
-      </controlProperties>
+    <control controlID="130" controlTypeID="__group__" x="373" y="331" w="382" h="20" measuredW="382" measuredH="20" zOrder="23" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="__group__" x="0" y="0" w="160" h="20" measuredW="160" measuredH="20" zOrder="0" locked="false" isInGroup="130">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="2" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="0" locked="false" isInGroup="0">
+              <controlProperties>
+                <icon>JumpBackIcon%7Cxsmall</icon>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="17" y="1" w="-1" h="-1" measuredW="58" measuredH="19" zOrder="1" locked="false" isInGroup="0">
+              <controlProperties>
+                <size>10</size>
+                <text>cloned%20from</text>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Link" x="75" y="0" w="-1" h="-1" measuredW="48" measuredH="19" zOrder="2" locked="false" isInGroup="0">
+              <controlProperties>
+                <size>10</size>
+                <text>Boulevard</text>
+              </controlProperties>
+            </control>
+            <control controlID="3" controlTypeID="com.balsamiq.mockups::Link" x="125" y="0" w="-1" h="-1" measuredW="35" measuredH="19" zOrder="3" locked="false" isInGroup="0">
+              <controlProperties>
+                <size>10</size>
+                <text>Wheat</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="1" controlTypeID="__group__" x="320" y="0" w="62" h="19" measuredW="62" measuredH="19" zOrder="1" locked="false" isInGroup="130">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="__group__" x="35" y="0" w="27" h="19" measuredW="27" measuredH="19" zOrder="0" locked="false" isInGroup="1">
+              <groupChildrenDescriptors>
+                <control controlID="0" controlTypeID="com.balsamiq.mockups::Icon" x="11" y="2" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="0" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <icon>JumpOutIcon%7Cxsmall</icon>
+                  </controlProperties>
+                </control>
+                <control controlID="1" controlTypeID="com.balsamiq.mockups::Link" x="0" y="0" w="-1" h="-1" measuredW="11" measuredH="19" zOrder="1" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <size>10</size>
+                    <text>3</text>
+                  </controlProperties>
+                </control>
+              </groupChildrenDescriptors>
+            </control>
+            <control controlID="1" controlTypeID="__group__" x="0" y="0" w="27" h="19" measuredW="27" measuredH="19" zOrder="1" locked="false" isInGroup="1">
+              <groupChildrenDescriptors>
+                <control controlID="0" controlTypeID="com.balsamiq.mockups::Icon" x="11" y="1" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="0" locked="false" isInGroup="1">
+                  <controlProperties>
+                    <icon>TrashIcon%7Cxsmall</icon>
+                  </controlProperties>
+                </control>
+                <control controlID="1" controlTypeID="com.balsamiq.mockups::Link" x="0" y="0" w="-1" h="-1" measuredW="11" measuredH="19" zOrder="1" locked="false" isInGroup="1">
+                  <controlProperties>
+                    <size>10</size>
+                    <text>7</text>
+                  </controlProperties>
+                </control>
+              </groupChildrenDescriptors>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
     </control>
-    <control controlID="125" controlTypeID="com.balsamiq.mockups::Button" x="426" y="1073" w="-1" h="-1" measuredW="56" measuredH="28" zOrder="23" locked="false" isInGroup="-1">
-      <controlProperties>
-        <color>40463</color>
-        <text>Clone</text>
-      </controlProperties>
-    </control>
-    <control controlID="126" controlTypeID="com.balsamiq.mockups::Button" x="488" y="1073" w="-1" h="-1" measuredW="119" measuredH="28" zOrder="24" locked="false" isInGroup="-1">
-      <controlProperties>
-        <color>40463</color>
-        <text>Buy%20Ingredients</text>
-      </controlProperties>
-    </control>
-    <control controlID="127" controlTypeID="com.balsamiq.mockups::Button" x="611" y="1073" w="-1" h="-1" measuredW="133" measuredH="28" zOrder="25" locked="false" isInGroup="-1">
-      <controlProperties>
-        <color>40463</color>
-        <text>Buy%20from%20BrewLab</text>
-      </controlProperties>
-    </control>
-    <control controlID="128" controlTypeID="com.balsamiq.mockups::StickyNote" x="488" y="1095" w="-1" h="-1" measuredW="109" measuredH="123" zOrder="26" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>integrate%20w/%20High%20Gravity</text>
-      </controlProperties>
-    </control>
-    <control controlID="129" controlTypeID="com.balsamiq.mockups::StickyNote" x="622" y="1096" w="-1" h="-1" measuredW="109" measuredH="123" zOrder="27" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>integrate%20w/%20BrewLab%u2122</text>
-      </controlProperties>
+    <control controlID="131" controlTypeID="__group__" x="367" y="1113" w="377" h="146" measuredW="377" measuredH="146" zOrder="22" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Button" x="0" y="0" w="-1" h="-1" measuredW="53" measuredH="28" zOrder="0" locked="false" isInGroup="131">
+          <controlProperties>
+            <color>40463</color>
+            <text>Brew</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Button" x="59" y="0" w="-1" h="-1" measuredW="56" measuredH="28" zOrder="1" locked="false" isInGroup="131">
+          <controlProperties>
+            <color>40463</color>
+            <text>Clone</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Button" x="121" y="0" w="-1" h="-1" measuredW="119" measuredH="28" zOrder="2" locked="false" isInGroup="131">
+          <controlProperties>
+            <color>40463</color>
+            <text>Buy%20Ingredients</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Button" x="244" y="0" w="-1" h="-1" measuredW="133" measuredH="28" zOrder="3" locked="false" isInGroup="131">
+          <controlProperties>
+            <color>40463</color>
+            <text>Buy%20from%20BrewLab</text>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::StickyNote" x="121" y="22" w="-1" h="-1" measuredW="109" measuredH="123" zOrder="4" locked="false" isInGroup="131">
+          <controlProperties>
+            <text>integrate%20w/%20High%20Gravity</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::StickyNote" x="255" y="23" w="-1" h="-1" measuredW="109" measuredH="123" zOrder="5" locked="false" isInGroup="131">
+          <controlProperties>
+            <text>integrate%20w/%20BrewLab%u2122</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
     </control>
   </controls>
 </mockup>

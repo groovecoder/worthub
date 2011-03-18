@@ -93,6 +93,7 @@
     </control>
     <control controlID="48" controlTypeID="com.balsamiq.mockups::CheckBox" x="375" y="225" w="-1" h="-1" measuredW="70" measuredH="22" zOrder="17" locked="false" isInGroup="-1">
       <controlProperties>
+        <state>selected</state>
         <text>Extract</text>
       </controlProperties>
     </control>
@@ -118,16 +119,19 @@
     </control>
     <control controlID="53" controlTypeID="com.balsamiq.mockups::RadioButton" x="375" y="289" w="-1" h="-1" measuredW="66" measuredH="22" zOrder="22" locked="false" isInGroup="-1">
       <controlProperties>
+        <state>selected</state>
         <text>Extract</text>
       </controlProperties>
     </control>
     <control controlID="54" controlTypeID="com.balsamiq.mockups::RadioButton" x="477" y="289" w="-1" h="-1" measuredW="81" measuredH="22" zOrder="23" locked="false" isInGroup="-1">
       <controlProperties>
+        <state>disabled</state>
         <text>Mini-mash</text>
       </controlProperties>
     </control>
     <control controlID="55" controlTypeID="com.balsamiq.mockups::RadioButton" x="598" y="289" w="-1" h="-1" measuredW="73" measuredH="22" zOrder="24" locked="false" isInGroup="-1">
       <controlProperties>
+        <state>disabled</state>
         <text>All-grain</text>
       </controlProperties>
     </control>
@@ -138,6 +142,7 @@
     </control>
     <control controlID="57" controlTypeID="com.balsamiq.mockups::NumericStepper" x="375" y="350" w="-1" h="-1" measuredW="59" measuredH="24" zOrder="26" locked="false" isInGroup="-1">
       <controlProperties>
+        <state>disabled</state>
         <text>68%25</text>
       </controlProperties>
     </control>
