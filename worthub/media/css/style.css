@@ -1,0 +1,12 @@
+body { margin:0; padding: 0; }
+#outer-container { position: relative; }
+header { background-color: #2D2614; position: relative; color: #A6A084; }
+header a:link { color: #a6a084; }
+#header-container { height: 30px; background: url("/media/img/bg-nav.png") repeat-x scroll 0 #2F2816; }
+#header-container .inner { margin: .2em 0;}
+input#search { float: left; }
+
+#personal-nav ul { margin: 0; padding: 0; list-style: none; }
+#personal-nav ul li { float: left; margin: 0 .5em; }
+
+#main { clear: both; margin-top: 1em;}
