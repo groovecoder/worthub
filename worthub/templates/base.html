@@ -27,24 +27,32 @@
 
   <div id="container">
     <header class="container_16">
-        <div id="header-left" class="grid_4">
-            <a href="/">worthub</a>
+        <div id="header-left" class="grid_4 head">
+            <div class="inner">
+                <a href="/"><h1>worthub</h1></a>
+            </div>
         </div>
-        <div id="header-middle" class="grid_8">
-            Search
+        <div id="header-middle" class="grid_8 head">
+            <div id="header-search" class="inner">
+                <span class="ui-state-default ui-corner-all"><span class="ui-icon ui-icon-search"></span><input title="type &quot;a&quot;" style="z-index: 100; position: relative" id="autocomplete" class="ui-autocomplete-input" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true"></span>
+            </div>
         </div>
-        <div id="header-right" class="grid_4">
-            <a href="/help">Help</a>
-            <a href="/notifications">Notifications</a>
-            <a href="/settings">Settings</a>
-        </div>
+        <nav id="personal-nav" class="grid_4 head">
+            <div class="inner">
+	            <ul>
+		            <a href="/help"><li title="Help" class="ui-state-default ui-corner-all"><span class="ui-icon ui-icon-help"></span></li></a>
+	                <a href="/notifications"><li title="Notifications" class="ui-state-default ui-corner-all"><span class="ui-icon ui-icon-notice"></span></li></a>
+		            <a href="/account">Account</a><li title="Account" class="ui-state-default ui-corner-all"><span class="ui-icon ui-icon-triangle-1-s"></span></li>
+	            </ul>
+            </div>
+        </nav>
     </header>
     <div id="main" role="main" class="container_16">
 	    <div id="left" class="grid_4">
 	       <h2>Username</h2>
 	       <ul>
-	           <li>Recipes</li>
-	           <li>Brews</li>
+	           <li><a href="/user/{{ username }}/recipes">Recipes</a></li>
+	           <li><a href="/user/{{ username }}/brews">Brews</a></li>
 	       </ul>
 	    </div>
         <div id="middle" class="grid_8">
