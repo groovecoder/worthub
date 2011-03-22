@@ -28,24 +28,34 @@
   <div id="container">
     <header class="container_16">
         <div id="header-left" class="grid_4">
-            worthub
+            <a href="/">worthub</a>
         </div>
         <div id="header-middle" class="grid_8">
-            search
+            Search
         </div>
         <div id="header-right" class="grid_4">
-            account
+            <a href="/help">Help</a>
+            <a href="/notifications">Notifications</a>
+            <a href="/settings">Settings</a>
         </div>
     </header>
     <div id="main" role="main" class="container_16">
 	    <div id="left" class="grid_4">
-	       navigation
+	       <h2>Username</h2>
+	       <ul>
+	           <li>Recipes</li>
+	           <li>Brews</li>
+	       </ul>
 	    </div>
         <div id="middle" class="grid_8">
             {% block content %}{% endblock %}
         </div>
         <div id="right" class="grid_4">
-            ads
+            <ul>
+                <li>Ad 1</li>
+                <li>Ad 2</li>
+                <li>Ad 3</li>
+            </ul>
         </div>
     </div>
     <footer class="container_16">
