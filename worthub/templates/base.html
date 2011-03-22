@@ -1,0 +1,77 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>{% block title %}worthub{% endblock %}</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="{{ MEDIA_URL }}img/favicon.ico">
+  <link rel="apple-touch-icon" href="{{ MEDIA_URL }}img/apple-touch-icon.png">
+
+  <link type="text/css" href="{{ MEDIA_URL }}css/960.css" rel="stylesheet" />
+  <link type="text/css" href="{{ MEDIA_URL }}css/south-street/jquery-ui-1.8.11.custom.css" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ MEDIA_URL }}css/style.css?v=2">
+
+  <script src="{{ MEDIA_URL }}js/modernizr-1.7.min.js"></script>
+
+</head>
+
+<body>
+
+  <div id="container">
+    <header class="container_16">
+        <div id="header-left" class="grid_4">
+            worthub
+        </div>
+        <div id="header-middle" class="grid_8">
+            search
+        </div>
+        <div id="header-right" class="grid_4">
+            account
+        </div>
+    </header>
+    <div id="main" role="main" class="container_16">
+	    <div id="left" class="grid_4">
+	       navigation
+	    </div>
+        <div id="middle" class="grid_8">
+            {% block content %}{% endblock %}
+        </div>
+        <div id="right" class="grid_4">
+            ads
+        </div>
+    </div>
+    <footer class="container_16">
+
+    </footer>
+  </div> <!-- eo #container -->
+
+  <script type="text/javascript" src="{{ MEDIA_URL }}js/jquery-1.5.1.min.js"></script>
+  <script type="text/javascript" src="{{ MEDIA_URL }}js/jquery-ui-1.8.11.custom.min.js"></script>
+  <!--[if lt IE 7 ]>
+    <script src="js/libs/dd_belatedpng.js"></script>
+    <script>DD_belatedPNG.fix("img, .png_bg");</script>
+  <![endif]-->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-22212695-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

@@ -1,3 +1,6 @@
+{% extends "base.html" %}
+
+{% block content %}
 {% load facebook_tags %}
 {% facebook_button %}
 {% facebook_js %}
@@ -7,3 +10,4 @@
 <hr/>
 {% load openid_tags %}
 {% openid_form %}
+{% endblock %}

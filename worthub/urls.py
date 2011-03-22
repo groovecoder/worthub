@@ -1,4 +1,5 @@
 from django.conf.urls.defaults import *
+from django.conf import settings
 
 # Uncomment the next two lines to enable the admin:
 from django.contrib import admin
@@ -19,3 +20,10 @@ urlpatterns += patterns('',
     (r'^$', 'worthub.views.index'),
     (r'', include('socialregistration.urls')),
 )
+
+if settings.MEDIA_SERVE:
+    media_url = settings.MEDIA_URL.lstrip('/').rstrip('/')
+    urlpatterns += patterns('',
+        (r'^%s/(?P<path>.*)$' % media_url, 'django.views.static.serve',
+          {'document_root': settings.MEDIA_ROOT}),
+    )
