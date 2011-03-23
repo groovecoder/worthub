@@ -9,3 +9,12 @@ urlpatterns = patterns('recipes.views',
 urlpatterns = patterns('django.views.generic.create_update',
     (r'^/new$', 'create_object', {'model':Recipe}),
 )
+
+recipe_info = {
+    'queryset': Recipe.objects.all(),
+    'slug_field': 'name',
+}
+
+urlpatterns += patterns('recipes.views',
+    (r'^/(?P<name>[^/]+)', 'detail')
+)

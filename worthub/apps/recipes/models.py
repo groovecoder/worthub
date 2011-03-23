@@ -2,6 +2,7 @@ from django.db import models
 from django.conf import settings
 from django.contrib.contenttypes.models import ContentType
 from django.contrib.contenttypes import generic
+from django.template.defaultfilters import urlencode
 
 class Style(models.Model):
     name = models.CharField(max_length=30)
@@ -24,6 +25,9 @@ class Recipe(models.Model):
 
     def __unicode__(self):
         return self.name
+    
+    def get_absolute_url(self):
+        return '/recipes/' + urlencode(self.name)
     
 class Instructions(models.Model):
     recipe = models.ForeignKey(Recipe)
