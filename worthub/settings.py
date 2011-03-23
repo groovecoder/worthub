@@ -116,6 +116,8 @@ INSTALLED_APPS = (
     # 'django.contrib.admindocs',
 
     'socialregistration',
+    
+    'recipes',
 )
 
 FACEBOOK_API_KEY = '3b4952176373162baa2fd56e1ab64fc0'
@@ -126,3 +128,16 @@ TWITTER_CONSUMER_SECRET_KEY = 'd3PcDgwHQLesDNa7SfHyihFrdHGRItGIVCzrtXQYd8'
 TWITTER_REQUEST_TOKEN_URL = 'http://api.twitter.com/oauth/request_token'
 TWITTER_ACCESS_TOKEN_URL = 'http://api.twitter.com/oauth/access_token'
 TWITTER_AUTHORIZATION_URL = 'http://api.twitter.com/oauth/authorize'
+
+MASH_TYPES = (
+    ('E', 'Extract'),
+    ('M', 'Mini-mash'),
+    ('A', 'All-grain'),
+)
+
+UOM = (
+    ('g', "gram"),
+    ('kg', 'kilogram'),
+    ('lb', "pound"),
+    ('oz', 'ounce'),
+)

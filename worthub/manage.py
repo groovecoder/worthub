@@ -1,4 +1,12 @@
 #!/usr/bin/env python
+from os.path import abspath, dirname, join
+from site import addsitedir
+
+ROOT = dirname(abspath(__file__))
+path = lambda *a: join(ROOT, *a)
+
+addsitedir(path('apps'))
+
 from django.core.management import execute_manager
 try:
     import settings_local as settings

@@ -19,6 +19,7 @@ urlpatterns = patterns('',
 urlpatterns += patterns('',
     (r'^$', 'worthub.views.index'),
     (r'', include('socialregistration.urls')),
+    (r'^recipes', include('recipes.urls'))
 )
 
 if settings.MEDIA_SERVE:
