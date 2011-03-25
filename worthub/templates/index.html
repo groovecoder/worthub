@@ -1,6 +1,15 @@
 {% extends "base.html" %}
-
 {% block content %}
+<h1>WortHub</h1>
+<h3>We brew better together.</h3>
+
+<h2>Welcome</h2>
+<p>WortHub is a "social brewing" site. We share our brewing recipes, our brewing activities, 
+and our brewing knowledge with each other and across the web.</p>
+<p>The best place to start is to register an account. With an account, 
+you can record and track recipes, and publish your brewing activity.</p>
+<div class="grid_4">
+Sign in with an existing account:
 {% load facebook_tags %}
 {% facebook_button %}
 {% facebook_js %}
@@ -10,4 +19,8 @@
 <hr/>
 {% load openid_tags %}
 {% openid_form %}
+</div>
+<div class="grid_4">
+Register a new account:
+</div>
 {% endblock %}

@@ -28,17 +28,17 @@
   <div id="outer-container">
     <header>
         <div id="header-container" class="container_16 ui-corner-all">
-	        <div id="header-left" class="grid_4">
+	        <div id="header-left" class="grid_3">
 	            <div class="inner">
 	                <a href="/"><img src="{{ MEDIA_URL }}img/header-logo.png" width="220" height="30" /></a>
 	            </div>
 	        </div>
-	        <div id="header-middle" class="grid_8">
+	        <div id="header-middle" class="grid_10">
 	            <div id="header-search" class="inner">
 	                <div><input style="z-index: 100; position: relative" id="search" class="ui-autocomplete-input" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true" size="60"/><span class="ui-icon ui-icon-search"></span></div>
 	            </div>
 	        </div>
-	        <nav id="personal-nav" class="grid_4">
+	        <nav id="personal-nav" class="grid_3">
 	            <div class="inner">
 		            <ul>
 			            <a href="/help"><li title="Help" class="ui-state-default ui-corner-all"><span class="ui-icon ui-icon-help"></span></li></a>
@@ -50,26 +50,26 @@
         </div>
     </header>
     <div id="main" role="main" class="container_16">
-	    <div id="left" class="grid_4">
+	    <div id="left" class="grid_3">
 	       <h2>{{ username }}</h2>
 	       <ul>
 	           <li><a href="/user/{{ username }}/recipes">Recipes</a></li>
 	           <li><a href="/user/{{ username }}/brews">Brews</a></li>
 	       </ul>
 	    </div>
-        <div id="middle" class="grid_8">
+        <div id="middle" class="grid_10">
             {% block content %}{% endblock %}
         </div>
-        <div id="right" class="grid_4">
-            <ul>
-                <li>Ad 1</li>
-                <li>Ad 2</li>
-                <li>Ad 3</li>
-            </ul>
+        <div id="right" class="grid_3">
+            Ads
         </div>
     </div>
-    <footer class="container_16">
-
+    <footer>
+        <div id="footer-container" class="container_16">
+            <div class="grid_16" style="text-align: center;">
+            &copy; 2011 worthub
+            </div>
+        </div>
     </footer>
   </div> <!-- eo #container -->
 
