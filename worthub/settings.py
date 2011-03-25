@@ -140,4 +140,16 @@ UOM = (
     ('kg', 'kilogram'),
     ('lb', "pound"),
     ('oz', 'ounce'),
+    ('br', 'brix'),
+)
+FERMENTABLE_TYPES = (
+    ('E', "Extract"),
+    ('G', "Grain"),
+    ('S', "Sugar"),
+)
+
+YEAST_TYPES = (
+    ('A', "Ale"),
+    ('L', "Lager"),
+    ('C', "Champagne")
 )

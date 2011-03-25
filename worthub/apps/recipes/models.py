@@ -37,9 +37,12 @@ class Instructions(models.Model):
 class Fermentable(models.Model):
     name = models.CharField(max_length=30)
     description = models.CharField(max_length=255, blank=True)
+    type = models.CharField(max_length=1, choices=settings.FERMENTABLE_TYPES, blank=True)
     color = models.DecimalField(max_digits=4, decimal_places=1)
     extract = models.DecimalField(max_digits=3, decimal_places=1)
     moisture = models.DecimalField(max_digits=2, decimal_places=1)
+    # potential gravity
+    pg = models.DecimalField(max_digits=4, decimal_places=3)
 
     def __unicode__(self):
         return self.name
@@ -56,6 +59,7 @@ class Yeast(models.Model):
     name = models.CharField(max_length=30)
     description = models.CharField(max_length=255, blank=True)
     attenuation = models.DecimalField(max_digits=3, decimal_places=1)
+    type = models.CharField(max_length=1, choices=settings.YEAST_TYPES)
 
     def __unicode__(self):
         return self.name
